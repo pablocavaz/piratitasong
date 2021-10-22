@@ -1,0 +1,60 @@
+        @font-face {
+            font-family:letra1 ;
+            src: url("../fonts/TradeWinds-Regular.ttf");
+        }
+
+    
+        
+        @font-face {
+            font-family: letrita2;
+            src: url("../fonts/Back\ to\ Black\ Demo.ttf");
+        }
+
+
+        body{background-image: url("../images/pattern.jpg");
+            background-size: 50%;    
+            margin: 0;
+            padding: 0; 
+            font-family: letrita2;
+            font-size :1.5em;
+            }
+
+
+            
+
+        #container{background-color: #fdeb2ab4;
+                width: 80%;
+                margin: 5vh auto;
+                border-radius: 100px;
+                padding: 20px;
+                }
+
+
+
+        #poema {width: 300px;
+                margin:auto;
+                padding: 8px;}
+
+        #poema h2 {font-family: letra1;
+                    width: 500px;}
+
+
+                /* <p> Navega velero mío<br>
+            Sin temor que ni enemigo navío<br>
+            Ni tormenta ni bonanza<br>
+            Tu rumbo a torcer alcanza<br>
+            Ni a sujetar tu valor</p>
+
+
+        <p> Veinte presas hemos hecho<br>
+            A despecho del inglés<br>
+            Y han rendido sus pendones<br>
+            Cien naciones a mis pies</p>
+
+
+            <p> Que es mi barco mi tesoro<br>
+                Que es mi Dios mi libertad<br>
+                Mi ley la fuerza y el viento<br>
+                Mi única patria la mar</p>*/
+
+

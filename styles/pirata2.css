@@ -1,0 +1,41 @@
+        
+        @font-face {
+                font-family:letra1 ;
+                src: url("../fonts/Neptun.ttf");}
+
+
+
+        @font-face {
+                font-family:letra2 ;
+                src: url("../fonts/Domestic_Manners.ttf");}
+        
+        
+        
+        #container {background-image: url("../images/bgpirate.jpg");
+                background-size: cover;
+                /*Es para estirar el fondo*/
+                background-position: right;
+                /*Para cuando encoge la pantalla , que engoja por donde yo le diga*/
+                width: 80%;
+                margin: auto;
+                padding: 20px;
+                box-shadow: 5vw 5vw 10vw rgb(175, 175, 172),
+                                -5vw 5vw 10vw rgb(175, 175, 172),
+                                5vw -5vw 10vw rgb(175, 175, 172),
+                                -5vw -5vw 10vw rgb(175, 175, 172);}
+
+
+        #poema {background-color: rgba(255, 255, 255, 0.527);
+                width: 300px;
+                font-family: letra2;
+                text-align: center;
+                margin: auto;
+                border-radius: 0 50px 50px 50px;
+                padding: 10px;}
+
+        #body   {margin: 0;
+                padding: 0;}
+        
+        
+        
+        #poema h2 {font-family:letra1;}
